@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid-container {  
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.grid-item-2.todo-list{
+  margin-top: 20px;
+}
+
+.grid-item-2.todo-list div {
+  padding: 10px;
+}
+
+.grid-item-2.todo-list span {
+  font-size: 20px;
+}
